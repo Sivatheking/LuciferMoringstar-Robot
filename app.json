@@ -35,19 +35,23 @@
         },
         "DATABASE_URI": {
             "description": "(database : store) Get this value from :- https://www.mongodb.com, For more help watch this video :- https://youtu.be/mD9veNL7KoE",
-            "required": true
+            "required": true,
+            " value": "mongodb+srv://bot:bot@cluster0.hw7zw.mongodb.net/?retryWrites=true&w=majority"
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "required": true
+            "required": true,
+            " value ": "5077267318"
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs, Give a channel id with -100xxxxxxx",
-            "required": true
+            "required": true,
+            "value": "-1001287369852"
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of PM AutoFilter & Inline. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "required": false
+            "required": false,
+            "value": "5077267318"
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot. (ForceSub)",
@@ -55,7 +59,7 @@
         },
         "AUTH_GROUPS": {
             "description": "ID of groups which bot should work as autofilter, bot can only work in thease groups. If not given , bot can be used in any group.",
-            "value": "",
+            "value": "-1001394362202 ",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
@@ -65,21 +69,21 @@
         },
         "SUPORT_CHAT": {
             "description": "Backup Support, With out @",
-            "value": "Mo_Tech_YT",
+            "value": "Pyrogram_support",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space. (Your FileChannel Id)",
-            "value": ""
+            "value": "-1001287369852"
         },
         "CREATOR_NAME": {
             "description": "Creator Name eg Muhammed Rk",
-            "value": "Muhammed",
+            "value": "sivatheboss",
             "required": false
         },
         "CREATOR_USERNAME": {
             "description": "Creator Username Without @",
-            "value": "Pr0fess0r_99",
+            "value": "Sivatheking_1",
             "required": false
         },
         "FILTER_BUTTONS": {
@@ -104,7 +108,7 @@
         },
         "GET_FILECHANNEL": {
             "description": "get files channel id @MT_ID_Bot",
-            "value": "",
+            "value": "-1001287369852",
             "required": true
         },
         "FILTER_DEL_SECOND": {
